@@ -31,12 +31,6 @@ comm = (()=>{
 					city.onCreate();
 				});
 			});
-			$('#maca').click(()=>{
-				$('#common_area').empty();
-				$.getScript(cityjs,()=>{
-					city.maca();
-				});
-			});
 		});
 	};
 	

@@ -33,24 +33,34 @@ city = (()=>{
 					$('.country_detail').remove();
 					$(compo.tourist_main_city()).appendTo('#wrapper');
 						
-/*					$('#taipai').click(()=>{
+					$('#taipai').click(()=>{
 						
-						$('#cj_content').remove();
-						$('.silver').remove();
-						$('.white').remove();
+						$('.country_detail').remove();
 						$('<div id="cj_content"></div>').appendTo('#wrapper');
 						$(compo.city_detail()).appendTo('#cj_content');
 						$('.area_title b').text('타이베이');
 						$('.area_title span').text('taipai');
-						$('<a> &gt; 타이베이 </a>').addClass('nav_btn').appendTo('.area_nav');
-						$('<img></img>')
+					/*	$('<a> &gt; 타이베이 </a>').addClass('nav_btn').appendTo('.area_nav');*/
+/*						$('<img></img>')
 						.attr("src",_+"/resources/img/component/taipai.jpg")
 						.attr("width","628")
 						.attr("height","369")
-						.appendTo('.img_box');
+						.appendTo('.img_box');*/
 						
+						$.ajax({
+							url: _+'/crawling',
+							type : 'get',
+							data:'',
+							dataType:'json',
+							contentType:'application/json',
+							success:d=>{
+								alert('crawling 성공하나...');
+							},
+							error:e=>{}
+							
+						});
 						city_detail();
-					});*/
+					});
 					break;
 				case 'tourist_city':
 					$('.country_detail').remove();
