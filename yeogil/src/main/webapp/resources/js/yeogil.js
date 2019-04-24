@@ -10,9 +10,9 @@ yeogil = (()=>{
 	let setContentView = ()=>{
 		$.when(
 				$.getScript($.js()+'/comp/compo.js'),
-				$.getScript($.js()+'/comm/comm.js')
+				$.getScript($.js()+'/comm/woo.js')
 		).done(()=>{
-			comm.init();
+			woo.init();
 		});
 	};
 	return {init:init,

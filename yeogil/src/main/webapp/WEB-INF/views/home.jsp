@@ -10,6 +10,15 @@
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- 어스토리 css -->
+  <link rel="stylesheet" href="<%=application.getContextPath()%>/resources/css/common/web/default_ko.css"/>
+  <link rel="stylesheet" href="<%=application.getContextPath()%>/resources/css/common/web/gnb.css" />  
+  <link rel="stylesheet" href="<%=application.getContextPath()%>/resources/css/component/reset.css" />
+  <link rel="stylesheet" href="<%=application.getContextPath()%>/resources/css/component/default.css" />
+  <link rel="stylesheet" href="<%=application.getContextPath()%>/resources/css/woo/astory/date_picker.css" />
+  <link rel="stylesheet" href="<%=application.getContextPath()%>/resources/css/woo/astory/main.css" />
+  <!-- 어스토리 css end -->
+  
   <link rel="stylesheet" href="<%=application.getContextPath()%>/resources/css/woo/base.css"/>
   <link rel="stylesheet" href="<%=application.getContextPath()%>/resources/css/woo/common.css"/>
   <link rel="stylesheet" href="<%=application.getContextPath()%>/resources/css/woo/daterangepicker.tourvis.css"/>
@@ -465,7 +474,7 @@
 <script src="<%=application.getContextPath()%>/resources/js/yeogil.js"></script>
 <script src="<%=application.getContextPath()%>/resources/js/city/city.js"></script>
 <script src="<%=application.getContextPath()%>/resources/js/comp/compo.js"></script>
-<script src="<%=application.getContextPath()%>/resources/js/comm/comm.js"></script>
+<script src="<%=application.getContextPath()%>/resources/js/comm/woo.js"></script>
 <script>
 yeogil.init('<%=application.getContextPath()%>');
 </script>

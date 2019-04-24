@@ -767,5 +767,17 @@ compo = {
 		+'		</div>'
 		+'	</div>'
 		+'</div>';
-	}
+	},
+	woo : ()=>{
+		return '<div class="page white">'
+		+'	<div class="wrap">'
+		+'		<div class="page_title">'
+		+'			검색하신 호텔입니다.!		</div>'
+		+'		<div class="clear"></div>'
+		+'		<div class="intro_list">'
+		+'		</div>'
+		+'		<div class="clear"></div>'
+		+'	</div>'
+		+'</div>';
+	},
 }
